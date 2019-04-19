@@ -1,0 +1,9 @@
+category: reverse
+points: 150
+name: Кумир
+author: javach
+description: >
+    Недавно мы нашли необычный файл, похожий на программу на каком-то явно 
+    продвинутом и мощном языке программирования. 
+flags:
+    - "ugra_turtle_rev3rse"
