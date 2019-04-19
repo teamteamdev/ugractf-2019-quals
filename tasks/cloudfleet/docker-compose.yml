@@ -1,0 +1,17 @@
+version: "3"
+services:
+    db:
+        image: "mongo:latest"
+        restart: always
+    py:
+        build: app
+        image: ugractf/cloudfleet
+        restart: always
+        volumes:
+            - ./app:/app
+        environment:
+            - "MONGODB_URI=mongodb://db:27017"
+        ports:
+            - "50001:80"
+        depends_on:
+            - db
