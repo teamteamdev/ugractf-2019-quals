@@ -1,0 +1,10 @@
+category: web
+points:   150
+name:     Странная страница
+author:   javach
+description: >
+    <p>Недавно на просторах интернета мы нашли 
+    <a href="https://strange.ugractf.ru">странную страницу</a>, 
+    которая, кажется, выглядит по-разному на разных мониторах.</p>
+flags:
+    - "ugra_rugau_ucucugu_a_ragu_ug"
