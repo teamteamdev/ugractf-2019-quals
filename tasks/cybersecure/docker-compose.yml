@@ -1,0 +1,10 @@
+version: "3"
+services:
+    app:
+        build: app
+        image: ugractf/cybersecure
+        restart: always
+        volumes:
+            - "./app:/app"
+        ports:
+            - "50003:3000"
