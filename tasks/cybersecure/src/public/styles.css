@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:300,400,700');
+
+html, body {
+    color: white;
+    font-family: 'Anonymous Pro', monospace;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('background.jpg') center;
+    background-size: cover;
+
+}
+
+.flex-root {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-responsive-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    flex: 2.5;
+}
+
+.header-title {
+    font-size: 72px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.header-subtitle {
+    font-size: 32px;
+}
+
+.inp {
+    flex: 1.7;
+}
+
+.inp input {
+    width: 100%;
+    font-family: 'Anonymous Pro', monospace;
+    text-align: center;
+    padding: 8px;
+    line-height: 32px;
+    font-size: 32px;
+    background-color: #1c3a23;
+    color: #40D40E;
+    border: 1px solid #0d2312;
+    border-radius: 12px;
+}
+
+.inp input::placeholder {
+    color: #20C20E;
+}
+
+.info {
+    flex: 1.7;
+    justify-content: center;
+}
+
+.info div {
+    flex-basis: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.info-title {
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+.info-text {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.inp button {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 14px;
+    font-family: 'Anonymous Pro', monospace;
+    background-color: #0d2312;
+    color: #20C20E;
+    border: 1px solid #20C20E;
+    transition: all 0.2s ease-in-out;
+    font-weight: 700;
+}
+
+.inp button:hover {
+    color: #0d2312;
+    background-color: #20C20E;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .flex-responsive-row {
+        flex-direction: column;
+    }
+}
