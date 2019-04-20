@@ -6,3 +6,8 @@ description: >
     <p><a href="https://static.ugractf.ru/8df3ccb56cb409c04dfb/text.txt">произошла криптография</a></p>
 flags:
     - "ugra_plez_deccrypt_me_more_more"
+hints:
+    -
+        name: hint
+        points: 25
+        text: Это — шифр простой замены.
