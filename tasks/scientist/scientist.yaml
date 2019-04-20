@@ -8,3 +8,8 @@ description: >
     кажется немного странной.</p>
 flags:
     - "ugra_its_not_an_embedded_file"
+hints:
+    -
+        name: hint
+        points: 25
+        text: Говорят, что в статье Иннокентия 146% плагиата
