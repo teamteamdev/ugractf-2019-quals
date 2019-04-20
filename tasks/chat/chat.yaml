@@ -1,0 +1,9 @@
+category: forensics
+points:   150
+name:     Елеграм
+author:   ksixty
+description: >
+    <p>Для вашего <del>удобства</del> веселья мы <del>подняли</del> воскресили из мёртвых официальный чат.</p>
+    <p><a href="irc://irc.ugractf.ru:6667">irc.ugractf.ru</a></p>
+flags:
+    - "ugra_we_are_tired_of_telegram_tasks"
