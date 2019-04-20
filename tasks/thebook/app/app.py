@@ -8,7 +8,7 @@ from flask import Flask, request, redirect
 
 app = Flask(__name__)
 
-SECRET_PATH = '/Cb2F87Ed60a4d290E2DdB7ffDB77a2e5'
+SECRET_PATH = '/BDdCc5aA38eA2005Ac20cCB5bA4b4D8d'
 SECRET_RESPONSE = 'ugra_ea5y_f4st_brutef0rce'
 
 REDIRECT_LINK = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
