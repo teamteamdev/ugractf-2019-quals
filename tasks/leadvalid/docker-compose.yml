@@ -1,0 +1,10 @@
+version: "3"
+services:
+    py:
+        build: app
+        image: ugractf/leadvalid
+        restart: always
+        volumes:
+            - ./app:/app
+        ports:
+            - "49800:8180"

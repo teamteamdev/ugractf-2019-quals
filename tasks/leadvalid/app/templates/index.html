@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Добропожаловати</h2>
+
+<p>Пожалуйста, приложите ваш docker-compose-файл к валидатору:
+<form method="post" action="validate" enctype="multipart/form-data">
+<input type="file" name="file">
+<input type="submit" value="Провалидировать">
+</form>
+{% endblock %}

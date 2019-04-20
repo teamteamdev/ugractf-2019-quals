@@ -1,0 +1,11 @@
+category: web
+points:   150
+name:     "#лидируйвалидируй"
+author:   enhydra
+description: >
+    <p>Предлагаем вам лидирующий сервис по валидированию докерфайлов.
+    Пожалуйста, приложите ваш докерфайл к валидатору.
+    Ваш докерфайл — это подтверждение, что ваш контейнер застрахован.</p>
+    <p><a href="https://leadvalid.ugractf.ru/">leadvalid.ugractf.ru</a></p>
+flags:
+    - "ugra_ule_ele_valilele_trali_vali_validate"
