@@ -1,0 +1,10 @@
+category: stegano
+points:   75
+name:     Ученый
+author:   nsychev
+description: >
+    <p>Учёный Иннокентий решил отправить свою первую статью в известный научый журнал.</p>
+    <p>Нам <a href="https://static.ugractf.ru/454e501087ddac15b4f1/article.pdf">эта статья</a>
+    кажется немного странной.</p>
+flags:
+    - "ugra_its_not_an_embedded_file"
