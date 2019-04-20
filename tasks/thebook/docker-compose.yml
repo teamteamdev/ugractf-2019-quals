@@ -1,0 +1,10 @@
+version: "3"
+services:
+    py:
+        build: app
+        image: ugractf/thebook
+        restart: always
+        volumes:
+            - ./app:/app
+        ports:
+            - "50000:80"
