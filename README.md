@@ -31,7 +31,7 @@
 [Ваня Клименко](https://github.com/vanyaklimenko) — разработчик платформы и тасков  
 [Калан Абе](https://github.com/kalan) — разработчик платформы и тасков  
 
-В какой-то момент пришёл [@liznq](https://t.me/liznq) и подарил команде таск [Not easy](tasks/noteasy/).
+В какой-то момент пришёл [Владимир Кеворков](https://github.com/attfsh) и подарил команде таск [Not easy](tasks/noteasy/).
 
 ## Лицензия
 
